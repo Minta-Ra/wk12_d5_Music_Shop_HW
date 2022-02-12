@@ -48,8 +48,8 @@ public abstract class Instrument implements IPlay {
         return material;
     }
 
-//    public double calculateMarkup(){
-//        return getSellPrice() - getBoughtPrice();
-//    }
+    public double calculateMarkup(Instrument instrument){
+        return getSellPrice() - getBoughtPrice();
+    }
 
 }
