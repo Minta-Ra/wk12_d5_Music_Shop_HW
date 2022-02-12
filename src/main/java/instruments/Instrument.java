@@ -3,7 +3,7 @@ package instruments;
 import shop.ISell;
 
 // implement when I want to be that thing
-public abstract class Instrument implements IPlay {
+public abstract class Instrument implements IPlay, ISell {
 
     // I want to have that thing
     // private IPlay play
@@ -46,10 +46,6 @@ public abstract class Instrument implements IPlay {
 
     public String getMaterial() {
         return material;
-    }
-
-    public double calculateMarkup(Instrument instrument){
-        return getSellPrice() - getBoughtPrice();
     }
 
 }

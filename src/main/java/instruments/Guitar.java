@@ -23,4 +23,8 @@ public class Guitar extends Instrument {
         return "a-woogah woogah";
     }
 
+    public double calculateMarkup(){
+        return getSellPrice() - getBoughtPrice();
+    }
+
 }

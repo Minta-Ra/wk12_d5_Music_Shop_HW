@@ -1,6 +1,8 @@
 package partItems;
 
-public abstract class PartItem {
+import shop.ISell;
+
+public abstract class PartItem implements ISell {
 
     public String brand;
     private double boughtPrice;

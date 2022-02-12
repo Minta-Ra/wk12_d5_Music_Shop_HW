@@ -1,8 +1,6 @@
 package partItems;
-
 import org.junit.Before;
 import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
 
 public class GuitarStringsTest {
@@ -36,6 +34,7 @@ public class GuitarStringsTest {
 
     @Test
     public void canCalculateMarkup() {
-        assertEquals(15.00, guitarStrings.calculateMarkup(guitarStrings));
+        assertEquals(15.00, guitarStrings.calculateMarkup(), 0.0);
     }
+
 }

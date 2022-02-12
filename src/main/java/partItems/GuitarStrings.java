@@ -6,4 +6,8 @@ public class GuitarStrings extends PartItem {
         super(brand, boughtPrice, sellPrice, material);
     }
 
+    public double calculateMarkup() {
+        return getSellPrice() - getBoughtPrice();
+    }
+
 }
