@@ -6,8 +6,4 @@ public class SaxophoneStand extends PartItem {
         super(brand, boughtPrice, sellPrice, material);
     }
 
-    public double calculateMarkup() {
-        return getSellPrice() - getBoughtPrice();
-    }
-
 }

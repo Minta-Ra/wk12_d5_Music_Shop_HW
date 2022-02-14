@@ -32,4 +32,8 @@ public abstract class PartItem implements ISell {
         return material;
     }
 
+    public double calculateMarkup() {
+        return getSellPrice() - getBoughtPrice();
+    }
+
 }

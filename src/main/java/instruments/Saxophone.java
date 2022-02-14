@@ -10,8 +10,4 @@ public class Saxophone extends Instrument {
         return "buhoomu-hoooooooom";
     }
 
-    public double calculateMarkup() {
-        return getSellPrice() - getBoughtPrice();
-    }
-
 }

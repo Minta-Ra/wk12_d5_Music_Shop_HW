@@ -23,7 +23,4 @@ public class Piano extends Instrument {
         return "Tun tu-run tun";
     }
 
-    public double calculateMarkup() {
-        return getSellPrice() - getBoughtPrice();
-    }
 }

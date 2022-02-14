@@ -17,9 +17,4 @@ public class Trumpet extends Instrument {
         return "Buuuuup";
     }
 
-    public double calculateMarkup() {
-        return getSellPrice() - getBoughtPrice();
-    }
-
-
 }
